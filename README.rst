@@ -24,7 +24,7 @@ Chess Checker
       :target: #
 ==============
 
-.. image:: https://forthebadge.com/images/badges/0-percent-optimized.svg
+.. image:: https://forthebadge.com/images/badges/0-percent-optimized.svg<space><space>
 .. image:: https://forthebadge.com/images/badges/certified-snoop-lion.svg
 .. image:: https://forthebadge.com/images/badges/made-with-python.svg
 .. image:: https://forthebadge.com/images/badges/powered-by-black-magic.svg
