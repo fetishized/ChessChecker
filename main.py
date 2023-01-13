@@ -128,8 +128,8 @@ main()
 
 
 
-# if __name__ == '__main__':
-#     vanity()
-#     choice, usernames, threads = user_input()
-#     checker(choice, usernames, threads)
-#     input("   [-] Press Enter to close.")
+ if __name__ == '__main__':
+     vanity()
+     choice, usernames, threads = user_input()
+     checker(choice, usernames, threads)
+     input("   [-] Press Enter to close.")
