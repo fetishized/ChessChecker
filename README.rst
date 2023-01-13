@@ -3,8 +3,8 @@ Chess Checker
 ==============
 
 
-.. image:: https://img.shields.io/github/issues/deathsec/instagram-py.svg?style=flat-square   
-      :target: https://github.com/deathsec/instagram-py/issues
+[.. image:: https://img.shields.io/github/issues/deathsec/instagram-py.svg?style=flat-square   
+      :target: https://github.com/deathsec/instagram-py/issues](https://img.shields.io/bitbucket/issues/fetishized/chesschecker)
 
 .. image:: https://img.shields.io/github/forks/deathsec/instagram-py.svg?style=flat-square   
       :target: https://github.com/deathsec/instagram-py/network
