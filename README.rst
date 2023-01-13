@@ -5,7 +5,8 @@ Chess Checker
     | Fast and easy username checker for Chess.com and Lichess.org with
     | real multiprocessing. 
     
- 
+ .. role:: raw-html(raw)
+    :format: html
 
 
 .. image:: https://img.shields.io/github/issues/fetishized/chesschecker.svg?style=flat-square   
@@ -20,7 +21,7 @@ Chess Checker
 
 .. image:: https://raw.githubusercontent.com/deathsec/instagram-py/v2.x.x/preview.gif
 
-:
+:raw-html:`<br />`
 
 .. image:: https://forthebadge.com/images/badges/0-percent-optimized.svg
       :target: #
