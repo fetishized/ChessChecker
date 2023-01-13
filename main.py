@@ -123,8 +123,6 @@ def main():
     checker(choice, usernames, threads)
     input("   [-] Press Enter to close.")
 
-main()
-
 
 
 
