@@ -1,12 +1,15 @@
 
+ .. role:: raw-html(raw)
+    :format: html
+
+
 Chess Checker
 ==============
 
     | Fast and easy username checker for Chess.com and Lichess.org with
     | real multiprocessing. 
     
- .. role:: raw-html(raw)
-    :format: html
+
 
 
 .. image:: https://img.shields.io/github/issues/fetishized/chesschecker.svg?style=flat-square   
@@ -29,4 +32,13 @@ Chess Checker
       :target: #    
 .. image:: https://forthebadge.com/images/badges/powered-by-black-magic.svg  
       :target: #
+
+
+==============
+ Installation
+==============
+
+---------------------------------
+ Upgrading  with pip
+---------------------------------
 
