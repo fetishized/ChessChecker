@@ -41,4 +41,5 @@ Chess Checker
 ---------------------------------
  Upgrading  with pip
 ---------------------------------
+yea this is pissing me off ill set this up later 
 
