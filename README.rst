@@ -20,7 +20,7 @@ Chess Checker
 
 .. image:: https://raw.githubusercontent.com/deathsec/instagram-py/v2.x.x/preview.gif
 
-:raw-html:`<br />`
+:
 
 .. image:: https://forthebadge.com/images/badges/0-percent-optimized.svg
       :target: #
