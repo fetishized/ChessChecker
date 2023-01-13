@@ -2,6 +2,11 @@
 Chess Checker
 ==============
 
+    | Fast and easy username checker for Chess.com and Lichess.org with
+    | real multiprocessing. 
+    
+
+
 
 .. image:: https://img.shields.io/github/issues/fetishized/chesschecker.svg?style=flat-square   
       :target: https://github.com/fetishized/chesschecker/issues
