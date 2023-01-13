@@ -22,7 +22,7 @@ Chess Checker
 
 .. image:: https://img.shields.io/pypi/v/instagram-py.svg?style=flat-square
       :target: #
-      
+-
       
 
 .. image:: https://forthebadge.com/images/badges/0-percent-optimized.svg
