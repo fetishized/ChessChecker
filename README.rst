@@ -20,8 +20,6 @@ Chess Checker
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square   
       :target: https://raw.githubusercontent.com/fetishized/chesschecker/master/LICENSE
 
-.. image:: https://img.shields.io/pypi/v/instagram-py.svg?style=flat-square
-      :target: #
  ⠀ 
       
 
