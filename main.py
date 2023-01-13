@@ -92,18 +92,28 @@ def checker(choice, usernames, threads):
     else:
         site = "Lichess.org"
         base_url = "https://www.lichess.org/@/"
-    with Pool(threads) as p:
-        results = p.map(check_username, [(base_url, username, site) for username in usernames])
-    for result in results:
-        checked += 1
-        if result:
-            successes += 1
-        else:
-            failures += 1
-        subprocess.run(['title', f'ChessHunter | Checked: {checked} | Successes: {successes} | Failures: {failures} | Threads: {threads}'], shell=True)
-    time.sleep(1)
+    while True:
+        with Pool(threads) as p:
+            results = p.map(check_username, [(base_url, username, site) for username in usernames])
+        rate_limited = False
+        for result, username in zip(results, usernames):
+            if result is None:
+                rate_limited = True
+                break
+            checked += 1
+            if result:
+                successes += 1
+            else:
+                with open("available.txt", "a") as f:
+                    f.write(username + "\n")
+                failures += 1
+            subprocess.run(['title', f'ChessHunter | Checked: {checked} | Successes: {successes} | Failures: {failures} | Threads: {threads}'], shell=True)
+        if not rate_limited:
+            break
+        time.sleep(3)
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"\n\n   Checked: {checked}\n   {Fore.GREEN}Successes: {successes}\n{Fore.RESET}   {Fore.RED}Failures: {failures}\n\n{Fore.RESET}")
+
 
 def check_username(url_username_site):
     url, username, site = url_username_site
@@ -111,6 +121,10 @@ def check_username(url_username_site):
     if response.status_code == 200:
         print(f'{Fore.RED}   [X] {username} is not available on {site}.{Fore.RESET}')
         return True
+    elif response.status_code == 429:
+        print(f'{Fore.YELLOW}   [!] Rate limit reached. Please try again later.{Fore.RESET}')
+        time.sleep(3)
+        return None
     else:
         print(f'{Fore.GREEN}   [+] {username} is available on {site}. {Fore.RESET}')
         return False
@@ -126,8 +140,8 @@ def main():
 
 
 
- if __name__ == '__main__':
-     vanity()
-     choice, usernames, threads = user_input()
-     checker(choice, usernames, threads)
-     input("   [-] Press Enter to close.")
+if __name__ == '__main__':
+    vanity()
+    choice, usernames, threads = user_input()
+    checker(choice, usernames, threads)
+    input("   [-] Press Enter to close.")
