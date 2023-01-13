@@ -43,3 +43,14 @@ Chess Checker
 ---------------------------------
 yea this is pissing me off ill set this up later 
 
+==============
+ Usage
+==============
+---------------------------------
+ Using a custom namelist
+---------------------------------
+If you're cloning/downloading this program from GitHub, place the namelist in the same folder as the program.
+When the prompt shows up, you'll type "namelist.txt", of course substituting "namelist" for the name of your namelist. You must include the file extension.
+
+If you're installing this using pip, make sure you type the path of the namelist. Relative path won't work.
+
