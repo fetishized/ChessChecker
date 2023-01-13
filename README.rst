@@ -5,6 +5,7 @@
 
 Chess Checker
 ==============
+==============
 
     | Fast and easy username checker for Chess.com and Lichess.org with
     | real multiprocessing. 
@@ -43,7 +44,7 @@ Chess Checker
 ---------------------------------
 yea this is pissing me off ill set this up later 
 
-==============
+--------------
 
 ==============
  Usage
