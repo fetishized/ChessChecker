@@ -22,6 +22,14 @@ Chess Checker
 
 .. image:: https://img.shields.io/pypi/v/instagram-py.svg?style=flat-square
       :target: #
-==============
+      
+
+.. image:: http://forthebadge.com/images/badges/built-with-love.svg
+      :target: #
+.. image:: http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg
+      :target: #
+      
+.. image:: http://forthebadge.com/images/badges/made-with-python.svg
+      :target: #
 
 .. image:: https://forthebadge.com/images/badges/0-percent-optimized.svg .. image:: https://forthebadge.com/images/badges/certified-snoop-lion.svg  .. image:: https://forthebadge.com/images/badges/made-with-python.svg  .. image:: https://forthebadge.com/images/badges/powered-by-black-magic.svg  
