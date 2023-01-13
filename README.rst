@@ -6,7 +6,7 @@ Chess Checker
     | real multiprocessing. 
     
  
-==============
+
 
 .. image:: https://img.shields.io/github/issues/fetishized/chesschecker.svg?style=flat-square   
       :target: https://github.com/fetishized/chesschecker/issues
@@ -22,7 +22,7 @@ Chess Checker
 
 .. image:: https://img.shields.io/pypi/v/instagram-py.svg?style=flat-square
       :target: #
-
+==============
 
 .. image:: https://forthebadge.com/images/badges/0-percent-optimized.svg
 .. image:: https://forthebadge.com/images/badges/certified-snoop-lion.svg
